@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorWhite"
+    tools:context=".usuario.gui.LoginActivity" >
+
+    <EditText
+        android:id="@+id/sign_in_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_in_usuario"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/rectangule_grey"
+        android:hint="@string/campo_senha_hint"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/botaoSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_in_senha"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/rectangule_blue"
+        android:gravity="center_horizontal"
+        android:onClick="onButtonClick"
+        android:padding="12dp"
+        android:text="@string/texto_botao_signin"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/linkCadastrar"
+        android:layout_width="263dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/botaoSignIn"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center_horizontal"
+        android:onClick="onButtonClick"
+        android:text="@string/link_signup"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/linkCadastrarLoja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linkCadastrar"
+        android:layout_marginTop="567dp"
+        android:onClick="onButtonClick"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/sign_in_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signInLogo"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/rectangule_grey"
+        android:hint="@string/campo_email_hint"
+        android:inputType="textEmailAddress"
+        android:maxLines="1" />
+
+    <ImageView
+        android:id="@+id/signInLogo"
+        android:layout_width="161dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="118dp"
+        android:contentDescription="@string/descricao_imagem_tela_inicial"
+        android:src="@drawable/ic_launchertmkcircle" />
+
+</RelativeLayout>

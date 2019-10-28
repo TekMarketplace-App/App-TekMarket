@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".usuario.gui.CadastroUsuarioActivity"
+    android:background="@color/colorWhite">
+
+    <EditText
+        android:id="@+id/campoNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/campoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/campoNome"
+        android:layout_marginTop="10dp"
+        android:hint="@string/signup_email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/campoSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/campoEmail"
+        android:layout_marginTop="10dp"
+        android:hint="@string/signup_senha"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/campoRepeteSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/campoSenha"
+        android:layout_marginTop="10dp"
+        android:hint="@string/signup_rep_senha"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/botaoRealizarCadastroUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/campoRepeteSenha"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangule_blue"
+        android:onClick="onButtonClickUsuario"
+        android:text="@string/signup_botao_cadastrar"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/signInLogo"
+        android:layout_width="130dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="129dp"
+        android:contentDescription="@string/descricao_imagem_tela_inicial"
+        android:src="@drawable/ic_action_nametmk" />
+
+</RelativeLayout>

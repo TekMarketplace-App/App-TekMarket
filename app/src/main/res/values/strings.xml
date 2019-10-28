@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name" translatable="false">TekMarketPlace</string>
+    <string name="campo_email_hint" translatable="false">Email</string>
+    <string name="campo_senha_hint">Senha</string>
+    <string name="link_signup">Não tem cadastro? Clique aqui.</string>
+    <string name="link_signup_loja">Quer cadastrar sua Loja? Clique aqui.</string>
+    <string name="texto_botao_signin">Entrar</string>
+
+    <string name="empty_text" />
+
+    <string name="signup_nome">Nome</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_senha">Senha</string>
+    <string name="signup_rep_senha">Repita a senha</string>
+    <string name="signup_botao_cadastrar">Cadastrar</string>
+    <string name="title_activity_main">TekMarketPlace</string>
+    <string name="title_activity_cadastro_usuario">Cadastrar Usuário</string>
+    <string name="usuario_bemvindo_login">Bem-vindo(a) </string>
+    <string name="descricao_imagem_tela_inicial">Logomarca TekMarketPlace</string>
+    <string name="error_email_vazio">Digite seu email</string>
+    <string name="error_senha_vazia">Digite sua senha</string>
+    <string name="email_invalido">Email inválido</string>
+    <string name="atualizarJson">Atualizar</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="title_activity_cadastro_projeto">Cadastrar Projeto</string>
+    <string name="error_nome_vazio">Digite o nome</string>
+    <string name="error_cnpj_vazio">Digite o cnpj</string>
+    <string name="error_descricao_vazia">Digite a descrição</string>
+    <string name="error_componente_vazio">Digite o componente</string>
+    <string name="error_espaco_branco">Não são permitidos espaços em branco</string>
+    <string name="error_senha_diferente">Senhas não coincidem</string>
+    <string name="cadastro_projeto_nome">Nome do projeto</string>
+    <string name="cadastro_projeto_descricao">Descrição do projeto</string>
+    <string name="cadastro_projeto_texto_plataforma">Plataforma</string>
+    <string name="cadastro_projeto_texto_aplicacao">Aplicação</string>
+    <string name="componente1">Componente 1</string>
+    <string name="componente2">Componente 2</string>
+    <string name="componente3">Componente 3</string>
+    <string name="title_cadastro_loja">Cadastro Loja</string>
+    <string name="projeto_main_componentes">Componentes</string>
+    <string name="erro_comp_loja_sem_nome">Não especificado</string>
+    <string name="hint_quantidade_componente">Qtde</string>
+    <string name="adicionar_foto">Adicionar foto</string>
+
+
+
+
+
+
+</resources>

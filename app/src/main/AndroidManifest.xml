@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="em.pg.rpv">
+
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission-sdk-23 android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.MANAGE_DOCUMENTS" />
+
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_tekmaketplace_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="em.pg.rpv.usuario.gui.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter android:label="TekMaketPlace">
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="em.pg.rpv.usuario.gui.MainActivity"
+            android:label="TekMaketPlace"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="em.pg.rpv.usuario.gui.CadastroUsuarioActivity"
+            android:label="@string/title_activity_cadastro_usuario"
+            android:theme="@style/AppTheme" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+
+        <activity
+            android:name="em.pg.rpv.projeto.gui.CadastroProjetoActivity"
+            android:label="@string/title_activity_cadastro_projeto"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="em.pg.rpv.loja.gui.CadastroLojaActivity"
+            android:label="@string/title_cadastro_loja"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="em.pg.rpv.loja.gui.LojaMainActivity"
+            android:label="TekMaketPlace"
+            android:theme="@style/AppTheme" />
+        <activity android:name="em.pg.rpv.projeto.gui.ProjetoMainActivity" />
+        <activity android:name="em.pg.rpv.projeto.gui.ImageSliderActivity" />
+        <activity android:name="em.pg.rpv.projeto.gui.ListaImagensProjetoActivity" />
+        <activity android:name="em.pg.rpv.componente.gui.CadastroComponenteActivity" />
+        <activity android:name="em.pg.rpv.componente.gui.ComponenteActivity" />
+        <activity
+            android:name="em.pg.rpv.usuario.gui.PesquisaActivity"
+            android:label="Pesquisa"
+            android:theme="@style/AppTheme">
+        </activity>
+    </application>
+
+</manifest>
